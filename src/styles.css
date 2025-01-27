@@ -1,0 +1,65 @@
+.btn-add {
+  float: right;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  font-size: 30;
+  text-align: center;
+  background-color: #034ea2;
+  color: white;
+  border: none;
+  font-size: 30px;
+  font-weight: 400;
+}
+.search-inp {
+  border: none;
+  width: 90%;
+  margin-left: 5px;
+}
+.search-inp:focus-visible {
+  outline: none;
+  box-shadow: none;
+}
+
+.todo-initial-circle {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #034ea2;
+  color: #034ea2;
+  margin-right: 10px;
+}
+
+.todo-name {
+  color: #034ea2;
+}
+
+.status-circle {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.todo-description {
+  padding-left: 40px;
+}
+
+.todo-date {
+  color: #767676;
+  font-size: 10px;
+}
+
+.todo-actions {
+  float: right;
+  display: flex;
+  gap: 20px;
+}
+
+.delete-icon {
+  color: red;
+  cursor: pointer;
+}
